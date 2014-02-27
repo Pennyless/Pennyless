@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE283D0B18BBF14F00F6F7F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE283D0A18BBF14F00F6F7F0 /* Foundation.framework */; };
+		DE283D0D18BBF14F00F6F7F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE283D0C18BBF14F00F6F7F0 /* CoreGraphics.framework */; };
+		DE283D0F18BBF14F00F6F7F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE283D0E18BBF14F00F6F7F0 /* UIKit.framework */; };
+		DE283D1518BBF14F00F6F7F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE283D1318BBF14F00F6F7F0 /* InfoPlist.strings */; };
+		DE283D1718BBF14F00F6F7F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE283D1618BBF14F00F6F7F0 /* main.m */; };
+		DE283D1B18BBF14F00F6F7F0 /* PennylessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE283D1A18BBF14F00F6F7F0 /* PennylessAppDelegate.m */; };
+		DE283D1E18BBF14F00F6F7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE283D1C18BBF14F00F6F7F0 /* Main.storyboard */; };
+		DE283D2118BBF14F00F6F7F0 /* PennylessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE283D2018BBF14F00F6F7F0 /* PennylessViewController.m */; };
+		DE283D2318BBF14F00F6F7F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE283D2218BBF14F00F6F7F0 /* Images.xcassets */; };
+		DE283D2A18BBF14F00F6F7F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE283D2918BBF14F00F6F7F0 /* XCTest.framework */; };
+		DE283D2B18BBF14F00F6F7F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE283D0A18BBF14F00F6F7F0 /* Foundation.framework */; };
+		DE283D2C18BBF14F00F6F7F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE283D0E18BBF14F00F6F7F0 /* UIKit.framework */; };
+		DE283D3418BBF14F00F6F7F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE283D3218BBF14F00F6F7F0 /* InfoPlist.strings */; };
+		DE283D3618BBF14F00F6F7F0 /* PennyLessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE283D3518BBF14F00F6F7F0 /* PennyLessTests.m */; };
+		DE4EB23B18BBF239009845EB /* Pennyless.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4EB23A18BBF239009845EB /* Pennyless.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE283D2D18BBF14F00F6F7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE283CFF18BBF14F00F6F7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE283D0618BBF14F00F6F7F0;
+			remoteInfo = PennyLess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE283D0718BBF14F00F6F7F0 /* PennyLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE283D0A18BBF14F00F6F7F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE283D0C18BBF14F00F6F7F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE283D0E18BBF14F00F6F7F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE283D1218BBF14F00F6F7F0 /* PennyLess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PennyLess-Info.plist"; sourceTree = "<group>"; };
+		DE283D1418BBF14F00F6F7F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE283D1618BBF14F00F6F7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE283D1818BBF14F00F6F7F0 /* PennyLess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PennyLess-Prefix.pch"; sourceTree = "<group>"; };
+		DE283D1918BBF14F00F6F7F0 /* PennylessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PennylessAppDelegate.h; sourceTree = "<group>"; };
+		DE283D1A18BBF14F00F6F7F0 /* PennylessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PennylessAppDelegate.m; sourceTree = "<group>"; };
+		DE283D1D18BBF14F00F6F7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE283D1F18BBF14F00F6F7F0 /* PennylessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PennylessViewController.h; sourceTree = "<group>"; };
+		DE283D2018BBF14F00F6F7F0 /* PennylessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PennylessViewController.m; sourceTree = "<group>"; };
+		DE283D2218BBF14F00F6F7F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE283D2818BBF14F00F6F7F0 /* PennyLessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyLessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE283D2918BBF14F00F6F7F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DE283D3118BBF14F00F6F7F0 /* PennyLessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PennyLessTests-Info.plist"; sourceTree = "<group>"; };
+		DE283D3318BBF14F00F6F7F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE283D3518BBF14F00F6F7F0 /* PennyLessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PennyLessTests.m; sourceTree = "<group>"; };
+		DE4EB23918BBF239009845EB /* Pennyless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pennyless.h; sourceTree = "<group>"; };
+		DE4EB23A18BBF239009845EB /* Pennyless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pennyless.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE283D0418BBF14F00F6F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE283D0D18BBF14F00F6F7F0 /* CoreGraphics.framework in Frameworks */,
+				DE283D0F18BBF14F00F6F7F0 /* UIKit.framework in Frameworks */,
+				DE283D0B18BBF14F00F6F7F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE283D2518BBF14F00F6F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE283D2A18BBF14F00F6F7F0 /* XCTest.framework in Frameworks */,
+				DE283D2C18BBF14F00F6F7F0 /* UIKit.framework in Frameworks */,
+				DE283D2B18BBF14F00F6F7F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE283CFE18BBF14F00F6F7F0 = {
+			isa = PBXGroup;
+			children = (
+				DE283D1018BBF14F00F6F7F0 /* PennyLess */,
+				DE283D2F18BBF14F00F6F7F0 /* PennyLessTests */,
+				DE283D0918BBF14F00F6F7F0 /* Frameworks */,
+				DE283D0818BBF14F00F6F7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE283D0818BBF14F00F6F7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE283D0718BBF14F00F6F7F0 /* PennyLess.app */,
+				DE283D2818BBF14F00F6F7F0 /* PennyLessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE283D0918BBF14F00F6F7F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE283D0A18BBF14F00F6F7F0 /* Foundation.framework */,
+				DE283D0C18BBF14F00F6F7F0 /* CoreGraphics.framework */,
+				DE283D0E18BBF14F00F6F7F0 /* UIKit.framework */,
+				DE283D2918BBF14F00F6F7F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE283D1018BBF14F00F6F7F0 /* PennyLess */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EB23818BBF1C8009845EB /* PennyLess */,
+				DE283D1918BBF14F00F6F7F0 /* PennylessAppDelegate.h */,
+				DE283D1A18BBF14F00F6F7F0 /* PennylessAppDelegate.m */,
+				DE283D1C18BBF14F00F6F7F0 /* Main.storyboard */,
+				DE283D1F18BBF14F00F6F7F0 /* PennylessViewController.h */,
+				DE283D2018BBF14F00F6F7F0 /* PennylessViewController.m */,
+				DE283D2218BBF14F00F6F7F0 /* Images.xcassets */,
+				DE283D1118BBF14F00F6F7F0 /* Supporting Files */,
+			);
+			path = PennyLess;
+			sourceTree = "<group>";
+		};
+		DE283D1118BBF14F00F6F7F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE283D1218BBF14F00F6F7F0 /* PennyLess-Info.plist */,
+				DE283D1318BBF14F00F6F7F0 /* InfoPlist.strings */,
+				DE283D1618BBF14F00F6F7F0 /* main.m */,
+				DE283D1818BBF14F00F6F7F0 /* PennyLess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE283D2F18BBF14F00F6F7F0 /* PennyLessTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE283D3518BBF14F00F6F7F0 /* PennyLessTests.m */,
+				DE283D3018BBF14F00F6F7F0 /* Supporting Files */,
+			);
+			path = PennyLessTests;
+			sourceTree = "<group>";
+		};
+		DE283D3018BBF14F00F6F7F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE283D3118BBF14F00F6F7F0 /* PennyLessTests-Info.plist */,
+				DE283D3218BBF14F00F6F7F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4EB23818BBF1C8009845EB /* PennyLess */ = {
+			isa = PBXGroup;
+			children = (
+				DE4EB23918BBF239009845EB /* Pennyless.h */,
+				DE4EB23A18BBF239009845EB /* Pennyless.m */,
+			);
+			name = PennyLess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE283D0618BBF14F00F6F7F0 /* PennyLess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE283D3918BBF14F00F6F7F0 /* Build configuration list for PBXNativeTarget "PennyLess" */;
+			buildPhases = (
+				DE283D0318BBF14F00F6F7F0 /* Sources */,
+				DE283D0418BBF14F00F6F7F0 /* Frameworks */,
+				DE283D0518BBF14F00F6F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyLess;
+			productName = PennyLess;
+			productReference = DE283D0718BBF14F00F6F7F0 /* PennyLess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE283D2718BBF14F00F6F7F0 /* PennyLessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE283D3C18BBF14F00F6F7F0 /* Build configuration list for PBXNativeTarget "PennyLessTests" */;
+			buildPhases = (
+				DE283D2418BBF14F00F6F7F0 /* Sources */,
+				DE283D2518BBF14F00F6F7F0 /* Frameworks */,
+				DE283D2618BBF14F00F6F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE283D2E18BBF14F00F6F7F0 /* PBXTargetDependency */,
+			);
+			name = PennyLessTests;
+			productName = PennyLessTests;
+			productReference = DE283D2818BBF14F00F6F7F0 /* PennyLessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE283CFF18BBF14F00F6F7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pennyless;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Core Mol Limited";
+				TargetAttributes = {
+					DE283D2718BBF14F00F6F7F0 = {
+						TestTargetID = DE283D0618BBF14F00F6F7F0;
+					};
+				};
+			};
+			buildConfigurationList = DE283D0218BBF14F00F6F7F0 /* Build configuration list for PBXProject "PennyLess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE283CFE18BBF14F00F6F7F0;
+			productRefGroup = DE283D0818BBF14F00F6F7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE283D0618BBF14F00F6F7F0 /* PennyLess */,
+				DE283D2718BBF14F00F6F7F0 /* PennyLessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE283D0518BBF14F00F6F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE283D2318BBF14F00F6F7F0 /* Images.xcassets in Resources */,
+				DE283D1518BBF14F00F6F7F0 /* InfoPlist.strings in Resources */,
+				DE283D1E18BBF14F00F6F7F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE283D2618BBF14F00F6F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE283D3418BBF14F00F6F7F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE283D0318BBF14F00F6F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE283D2118BBF14F00F6F7F0 /* PennylessViewController.m in Sources */,
+				DE283D1B18BBF14F00F6F7F0 /* PennylessAppDelegate.m in Sources */,
+				DE283D1718BBF14F00F6F7F0 /* main.m in Sources */,
+				DE4EB23B18BBF239009845EB /* Pennyless.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE283D2418BBF14F00F6F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE283D3618BBF14F00F6F7F0 /* PennyLessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE283D2E18BBF14F00F6F7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE283D0618BBF14F00F6F7F0 /* PennyLess */;
+			targetProxy = DE283D2D18BBF14F00F6F7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE283D1318BBF14F00F6F7F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE283D1418BBF14F00F6F7F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE283D1C18BBF14F00F6F7F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE283D1D18BBF14F00F6F7F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE283D3218BBF14F00F6F7F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE283D3318BBF14F00F6F7F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE283D3718BBF14F00F6F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE283D3818BBF14F00F6F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE283D3A18BBF14F00F6F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennyLess/PennyLess-Prefix.pch";
+				INFOPLIST_FILE = "PennyLess/PennyLess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE283D3B18BBF14F00F6F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennyLess/PennyLess-Prefix.pch";
+				INFOPLIST_FILE = "PennyLess/PennyLess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE283D3D18BBF14F00F6F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PennyLess.app/PennyLess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennyLess/PennyLess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PennyLessTests/PennyLessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DE283D3E18BBF14F00F6F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PennyLess.app/PennyLess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennyLess/PennyLess-Prefix.pch";
+				INFOPLIST_FILE = "PennyLessTests/PennyLessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE283D0218BBF14F00F6F7F0 /* Build configuration list for PBXProject "PennyLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE283D3718BBF14F00F6F7F0 /* Debug */,
+				DE283D3818BBF14F00F6F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE283D3918BBF14F00F6F7F0 /* Build configuration list for PBXNativeTarget "PennyLess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE283D3A18BBF14F00F6F7F0 /* Debug */,
+				DE283D3B18BBF14F00F6F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE283D3C18BBF14F00F6F7F0 /* Build configuration list for PBXNativeTarget "PennyLessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE283D3D18BBF14F00F6F7F0 /* Debug */,
+				DE283D3E18BBF14F00F6F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE283CFF18BBF14F00F6F7F0 /* Project object */;
+}
